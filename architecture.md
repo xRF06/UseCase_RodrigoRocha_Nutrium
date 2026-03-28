@@ -3,35 +3,39 @@
 ## 1. LangGraph Workflow (Iterative Agent)
 
 ```mermaid
-graph TD
-    %% Define styles
-    classDef startEnd fill:#4CAF50,color:#fff,stroke:#388E3C,stroke-width:2px;
-    classDef failure fill:#f44336,color:#fff,stroke:#d32f2f,stroke-width:2px;
-    classDef action fill:#2196F3,color:#fff,stroke:#1976D2,stroke-width:2px;
-    classDef api fill:#FF9800,color:#fff,stroke:#F57C00,stroke-width:2px;
-    classDef logic fill:#9C27B0,color:#fff,stroke:#7B1FA2,stroke-width:2px;
-    classDef review fill:#009688,color:#fff,stroke:#00796B,stroke-width:2px;
-    classDef io fill:#607D8B,color:#fff,stroke:#455A64,stroke-width:2px;
+flowchart TD
+    %% Global Styles
+    classDef default fill:#1E1E1E,stroke:#444,stroke-width:1px,color:#FFF,rx:8px,ry:8px;
+    classDef startEnd fill:#000000,stroke:#666,stroke-width:2px,color:#FFF,rx:20px,ry:20px;
+    classDef ai fill:#2A2D34,stroke:#4A90E2,stroke-width:2px,color:#FFF;
+    classDef python fill:#2A2D34,stroke:#E2B94A,stroke-width:2px,color:#FFF;
+    classDef io fill:#1E1E1E,stroke:#4CAF50,stroke-width:1.5px,color:#FFF,stroke-dasharray: 5 5;
+    classDef error fill:#3A1A1A,stroke:#E53935,stroke-width:2px,color:#FFF;
+    classDef condition fill:#2A2A2A,stroke:#9E9E9E,stroke-width:1px,color:#FFF;
 
     %% Nodes
-    A([START]):::startEnd --> B["load_and_filter (Safety Firewall)"]:::action
-    B --> C["generate_plan (LLM Food Selector)"]:::api
-    C --> D["validate_output (Python Math Engine)"]:::logic
+    START([🚀 START]):::startEnd --> FILTER["🛡️ load_and_filter<br/><small>Safety Firewall</small>"]:::python
     
-    D -->|"Math and Schema OK"| E["critique_plan (Senior Reviewer)"]:::review
-    D -->|"Math or Schema FAILED"| F{"Retries limit reached?"}
+    FILTER --> GEN["🧠 generate_plan<br/><small>LLM Food Selector</small>"]:::ai
     
-    E -->|"Approved"| G([SUCCESS]):::startEnd
-    E -->|"Rejected"| F
+    GEN --> VAL["🧮 validate_output<br/><small>Python Math Engine</small>"]:::python
     
-    F -->|"No (Dynamic Tip Injected)"| C
-    F -->|"Yes (Attempts Exhausted)"| H["handle_failure"]:::failure
-    H --> I([FAILURE]):::failure
+    VAL -- "✅ Math & Schema OK" --> CRIT["👨‍⚕️ critique_plan<br/><small>Senior Reviewer</small>"]:::ai
+    VAL -- "❌ FAILED" --> RETRY{"🔄 Retries<br/>exhausted?"}:::condition
+    
+    CRIT -- "✅ Approved" --> SUCC([🎯 SUCCESS]):::startEnd
+    CRIT -- "❌ Rejected" --> RETRY
+    
+    RETRY -- "No (Inject Tip)" --> GEN
+    RETRY -- "Yes" --> FAIL_NODE["🗑️ handle_failure"]:::error
+    FAIL_NODE --> FAIL_END([💀 FAILURE]):::startEnd
 
     %% Output Routing
-    G -.-> |"Zero Warnings"| J_S["llm_plans_success (Perfect)"]:::io
-    G -.-> |"Macro mismatch"| J_W["llm_plans_success_w_warnings (Soft Warnings)"]:::io
-    I -.-> |"Fatal limits"| J_F["llm_plans_failure (Full Error Logs)"]:::io
+    subgraph Routing ["📁 Output Routing System"]
+        SUCC -.->|"Zero Warnings"| J_S[/"/llm_plans_success"/]:::io
+        SUCC -.->|"Macro mismatch"| J_W[/"/llm_plans_success_w_warnings"/]:::io
+        FAIL_END -.->|"Fatal limits"| J_F[/"/llm_plans_failure"/]:::error
+    end
 ```
 
 ## 2. State Schema (Graph Memory)
