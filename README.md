@@ -4,20 +4,36 @@ An intelligent, LLM-powered workflow that generates personalised 1-day meal plan
 
 ## Architecture
 
-```
-START → Load & Filter Data → Generate Meal Plan → Validate Output
-                                     ↑                    |
-                                     |              ┌─────┴─────┐
-                                  (retry)       (valid)     (invalid)
-                                     |              |           |
-                                     |         Critique     Retries < 3?
-                                     |           Plan       ├── Yes → retry
-                                     |         ┌──┴──┐      └── No → FAILURE
-                                     |    (approved)(rejected)
-                                     |         |       |
-                                     |       END    Retries < 3?
-                                     |              ├── Yes ──┘
-                                     └── No → FAILURE
+```mermaid
+graph TD
+    %% Define styles
+    classDef startEnd fill:#4CAF50,color:#fff,stroke:#388E3C,stroke-width:2px;
+    classDef failure fill:#f44336,color:#fff,stroke:#d32f2f,stroke-width:2px;
+    classDef action fill:#2196F3,color:#fff,stroke:#1976D2,stroke-width:2px;
+    classDef api fill:#FF9800,color:#fff,stroke:#F57C00,stroke-width:2px;
+    classDef logic fill:#9C27B0,color:#fff,stroke:#7B1FA2,stroke-width:2px;
+    classDef review fill:#009688,color:#fff,stroke:#00796B,stroke-width:2px;
+    classDef io fill:#607D8B,color:#fff,stroke:#455A64,stroke-width:2px;
+
+    %% Nodes
+    A([START]):::startEnd --> B["load_and_filter (Safety Firewall)"]:::action
+    B --> C["generate_plan (LLM Food Selector)"]:::api
+    C --> D["validate_output (Python Math Engine)"]:::logic
+    
+    D -->|"Math and Schema OK"| E["critique_plan (Senior Reviewer)"]:::review
+    D -->|"Math or Schema FAILED"| F{"Retries limit reached?"}
+    
+    E -->|"Approved"| G([SUCCESS]):::startEnd
+    E -->|"Rejected"| F
+    
+    F -->|"No (Dynamic Tip Injected)"| C
+    F -->|"Yes (Attempts Exhausted)"| H["handle_failure"]:::failure
+    H --> I([FAILURE]):::failure
+
+    %% Output Routing
+    G -.-> |"Zero Warnings"| J_S["llm_plans_success (Perfect)"]:::io
+    G -.-> |"Macro mismatch"| J_W["llm_plans_success_w_warnings (Soft Warnings)"]:::io
+    I -.-> |"Fatal limits"| J_F["llm_plans_failure (Full Error Logs)"]:::io
 ```
 
 ### Nodes
