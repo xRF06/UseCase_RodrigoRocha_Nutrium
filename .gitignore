@@ -23,5 +23,3 @@ build/
 *.egg-info/
 
 
-/Resumo_Arquitetura.md
-/UseCase/openai_api_key.txt
