@@ -1,0 +1,93 @@
+{
+  "daily_totals": {
+    "kcal": 1625.65,
+    "protein_g": 109.25,
+    "carbs_g": 224.5,
+    "fat_g": 34.4,
+    "fiber_g": 29.92
+  },
+  "meals": [
+    {
+      "meal_type": "Lunch",
+      "time": "13:00",
+      "items": [
+        "1 escumadeira média cheia de arroz cozido (85 g) (ID: 318769) OR 3 unidades pequenas de batata inglesa cozida (210 g) (ID: 318770)",
+        "1 filé de coxão mole de bovino, sem gordura, cozido (120 g) (ID: 319066) OR 1 unidade de filé mingnon bovino, sem gordura, grelhado (120 g) (ID: 319067)",
+        "120 g de alface (ID: 319387) OR 100 g de tomate (ID: 319400)",
+        "2 conchas pequenas de feijão preto cozido (100 g) (ID: 320413) OR 5 colheres de sopa de lentilha cozida (90 g) (ID: 320414)"
+      ],
+      "meal_totals": {
+        "kcal": 403.5,
+        "protein_g": 39.42,
+        "carbs_g": 39.83,
+        "fat_g": 10.25,
+        "fiber_g": 11.01
+      }
+    },
+    {
+      "meal_type": "Afternoon Snack",
+      "time": "16:00",
+      "items": [
+        "1 unidade de ovo de galinha cozido (78 g) (ID: 318951) OR 8 fatias médias de presunto sem capa de gordura (120 g) (ID: 318952)",
+        "0,5 unidade de banana prata crua (33 g) (ID: 318932) OR 1 unidade pequena de laranja (90 g) (ID: 318936)"
+      ],
+      "meal_totals": {
+        "kcal": 160.57,
+        "protein_g": 10.35,
+        "carbs_g": 15.42,
+        "fat_g": 6.85,
+        "fiber_g": 1.79
+      }
+    },
+    {
+      "meal_type": "Pre-Workout Snack",
+      "time": "19:30",
+      "items": [
+        "1 unidade média de iogurte natural (200 g) (ID: 318955) OR 1 copo de bebida vegetal (200 g) (ID: 320426)",
+        "2 fatias de pão de forma de trigo integral (50 g) (ID: 318777) OR 1 unidade de pão francês (50 g) (ID: 318778)"
+      ],
+      "meal_totals": {
+        "kcal": 391.1,
+        "protein_g": 16.37,
+        "carbs_g": 60.83,
+        "fat_g": 9.36,
+        "fiber_g": 4.14
+      }
+    },
+    {
+      "meal_type": "Post-Workout Snack",
+      "time": "21:30",
+      "items": [
+        "0,5 unidade média de maçã (65 g) (ID: 318937) OR 1 unidade pequena de tangerina (100 g) (ID: 318946)",
+        "3 colheres de sopa cheias de aveia em flocos (45 g) (ID: 319053) OR 0,5 xícara de granola (40 g) (ID: 319055)"
+      ],
+      "meal_totals": {
+        "kcal": 423.92,
+        "protein_g": 12.04,
+        "carbs_g": 84.31,
+        "fat_g": 5.01,
+        "fiber_g": 8.69
+      }
+    },
+    {
+      "meal_type": "Dinner",
+      "time": "23:00",
+      "items": [
+        "2 fatias de cuscuz de milho, cozido com sal (100 g) (ID: 318774) OR 2 pedaços pequenos de mandioca cozida (100 g) (ID: 318773)",
+        "1 unidade de pintado grelhado (120 g) (ID: 320412) OR 1 filé de corvina grande assada (120 g) (ID: 320409)",
+        "100 g de espinafre (ID: 319394) OR 1 unidade média de cenoura (100 g) (ID: 319375)"
+      ],
+      "meal_totals": {
+        "kcal": 246.56,
+        "protein_g": 31.07,
+        "carbs_g": 24.11,
+        "fat_g": 2.93,
+        "fiber_g": 4.29
+      }
+    }
+  ],
+  "warnings": [
+    "[WARN] protein target miss: goal=148.8g, plan=109.2g (-26.6%)",
+    "[WARN] carbs target miss: goal=191.2g, plan=224.5g (+17.4%)"
+  ]
+}

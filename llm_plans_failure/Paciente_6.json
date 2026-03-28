@@ -1,0 +1,82 @@
+{
+  "daily_totals": {
+    "kcal": 2203.99,
+    "protein_g": 156.5,
+    "carbs_g": 284.37,
+    "fat_g": 52.94,
+    "fiber_g": 46.9
+  },
+  "meals": [
+    {
+      "meal_type": "Breakfast",
+      "time": "07:00",
+      "items": [
+        "1,5 unidades de ovos de galinha cozido (117 g) (ID: 318951) OR 12 fatias médias de presunto sem capa de gordura (180 g) (ID: 318952)",
+        "3 fatias de pão de forma de trigo integral (75 g) (ID: 318777) OR 1,5 unidades de pão francês (75 g) (ID: 318778)",
+        "1 unidade de banana prata crua (66 g) (ID: 318932) OR 9 unidades grande de uvas (108 g) (ID: 318944)"
+      ],
+      "meal_totals": {
+        "kcal": 652.95,
+        "protein_g": 25.7,
+        "carbs_g": 108.21,
+        "fat_g": 14.2,
+        "fiber_g": 8.47
+      }
+    },
+    {
+      "meal_type": "Lunch",
+      "time": "12:30",
+      "items": [
+        "2 escumadeiras média cheia de arroz cozido (170 g) (ID: 318769) OR 4 pedaços pequenos de mandioca cozida (200 g) (ID: 318773)",
+        "3 porções de macarrão (219 g) (ID: 318783) OR 3 fatias de cuscuz de milho, cozido com sal (150 g) (ID: 318774)",
+        "1,5 filés de coxão mole de bovino, sem gordura, cozido (180 g) (ID: 319066) OR 1,5 unidades de filés mingnon bovino, sem gordura, grelhado (180 g) (ID: 319067)",
+        "100 g de tomate (ID: 319400) OR 100 g de espinafre (ID: 319394)",
+        "3 conchas pequenas de feijão preto cozido (150 g) (ID: 320413) OR 7,5 colheres de sopa de lentilha cozida (135 g) (ID: 320414)"
+      ],
+      "meal_totals": {
+        "kcal": 774.38,
+        "protein_g": 61.86,
+        "carbs_g": 97.44,
+        "fat_g": 16.62,
+        "fiber_g": 20.32
+      }
+    },
+    {
+      "meal_type": "Afternoon Snack",
+      "time": "16:00",
+      "items": [
+        "1 copo de bebida vegetal (200 g) (ID: 320426) OR 1 unidade de ovo de galinha cozido (78 g) (ID: 318951)",
+        "1 unidade de maçã (130 g) (ID: 318937) OR 1,5 unidades pequena de laranja (135 g) (ID: 318936)"
+      ],
+      "meal_totals": {
+        "kcal": 182.67,
+        "protein_g": 10.73,
+        "carbs_g": 21.07,
+        "fat_g": 6.91,
+        "fiber_g": 2.54
+      }
+    },
+    {
+      "meal_type": "Dinner",
+      "time": "19:30",
+      "items": [
+        "3 fatias médias de batata doce cozida (210 g) (ID: 318772) OR 4,5 unidades pequenas de batata inglesa cozida (315 g) (ID: 318770)",
+        "1,5 filés de lagarto bovino cozido (180 g) (ID: 319068) OR 2 bifes médios de alcatra grelhada (180 g) (ID: 320101)",
+        "100 g de couve manteiga crua (ID: 319392) OR 120 g de pepino (ID: 319395)",
+        "1 concha de feijão tropeiro mineiro (100 g) (ID: 320417) OR 6 colheres de sopa de feijão fradinho cozido (120 g) (ID: 320416)"
+      ],
+      "meal_totals": {
+        "kcal": 594.0,
+        "protein_g": 58.2,
+        "carbs_g": 57.64,
+        "fat_g": 15.21,
+        "fiber_g": 15.56
+      }
+    }
+  ],
+  "warnings": [
+    "[WARN] protein target miss: goal=140.0g, plan=156.5g (+11.8%)",
+    "[WARN] carbs target miss: goal=250.0g, plan=284.4g (+13.7%)",
+    "Calorie target miss: goal=2500.0, plan=2204.0 (±10% = 2250-2750)"
+  ]
+}

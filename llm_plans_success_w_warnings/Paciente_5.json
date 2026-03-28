@@ -1,0 +1,79 @@
+{
+  "daily_totals": {
+    "kcal": 2132.52,
+    "protein_g": 152.58,
+    "carbs_g": 230.36,
+    "fat_g": 70.2,
+    "fiber_g": 30.57
+  },
+  "meals": [
+    {
+      "meal_type": "Breakfast",
+      "time": "07:00",
+      "items": [
+        "3 fatias de pão de forma de trigo integral (75 g) (ID: 318777) OR 1,5 unidades de pão francês (75 g) (ID: 318778)",
+        "1,5 unidades de ovos de galinha cozido (117 g) (ID: 318951) OR 12 fatias médias de presunto sem capa de gordura (180 g) (ID: 318952)",
+        "1 unidade de banana prata crua (66 g) (ID: 318932) OR 9 unidades grande de uvas (108 g) (ID: 318944)"
+      ],
+      "meal_totals": {
+        "kcal": 652.95,
+        "protein_g": 25.7,
+        "carbs_g": 108.21,
+        "fat_g": 14.2,
+        "fiber_g": 8.47
+      }
+    },
+    {
+      "meal_type": "Lunch",
+      "time": "12:30",
+      "items": [
+        "1,5 escumadeiras média cheia de arroz cozido (127,5 g) (ID: 318769) OR 3 porções de macarrão (219 g) (ID: 318783)",
+        "15 colheres de sopa de feijão carioca cozido (225 g) (ID: 320105) OR 6 conchas pequenas de feijão preto cozido (300 g) (ID: 320418)",
+        "1,5 filés de coxão mole de bovino, sem gordura, cozido (180 g) (ID: 319066) OR 1,5 unidades de filés mingnon bovino, sem gordura, grelhado (180 g) (ID: 319067)",
+        "150 g de tomate (ID: 319400) OR 150 g de espinafre (ID: 319394)"
+      ],
+      "meal_totals": {
+        "kcal": 601.11,
+        "protein_g": 60.72,
+        "carbs_g": 52.39,
+        "fat_g": 17.33,
+        "fiber_g": 12.45
+      }
+    },
+    {
+      "meal_type": "Afternoon Snack",
+      "time": "16:00",
+      "items": [
+        "1,5 unidades pequena de iogurte (210 g) (ID: 319057) OR 3 fatias médias de queijo ricota (105 g) (ID: 318953)",
+        "18 unidades médias de morango (216 g) (ID: 318943) OR 1,5 unidades pequena de tangerina (150 g) (ID: 318946)"
+      ],
+      "meal_totals": {
+        "kcal": 154.64,
+        "protein_g": 6.24,
+        "carbs_g": 28.76,
+        "fat_g": 2.73,
+        "fiber_g": 3.21
+      }
+    },
+    {
+      "meal_type": "Dinner",
+      "time": "19:30",
+      "items": [
+        "3 fatias de cuscuz de milho, cozido com sal (150 g) (ID: 318774) OR 3 pedaços pequenos de mandioca cozida (150 g) (ID: 318773)",
+        "1 unidade pequena de peito de frango, sem pele, grelhado (140 g) (ID: 319106) OR 10 colheres de sopa cheias de atum em conserva light (160 g) (ID: 319107)",
+        "1,5 colheres de sopa cheia de queijo requeijão cremoso (45 g) (ID: 319026) OR 1,5 fatias média, tipo Danúbio de queijo minas, frescal (45 g) (ID: 319027)",
+        "150 g de couve manteiga crua (ID: 319392) OR 150 g de brócolis (ID: 319374)"
+      ],
+      "meal_totals": {
+        "kcal": 723.82,
+        "protein_g": 59.93,
+        "carbs_g": 40.99,
+        "fat_g": 35.94,
+        "fiber_g": 6.43
+      }
+    }
+  ],
+  "warnings": [
+    "[WARN] fat target miss: goal=48.9g, plan=70.2g (+43.6%)"
+  ]
+}

@@ -1,0 +1,82 @@
+{
+  "daily_totals": {
+    "kcal": 2260.32,
+    "protein_g": 164.56,
+    "carbs_g": 278.31,
+    "fat_g": 58.16,
+    "fiber_g": 45.61
+  },
+  "meals": [
+    {
+      "meal_type": "Lunch",
+      "time": "13:00",
+      "items": [
+        "2 escumadeiras média cheia de arroz cozido (170 g) (ID: 318769) OR 6 unidades pequenas de batata inglesa cozida (420 g) (ID: 318770)",
+        "1,5 filés de coxão mole de bovino, sem gordura, cozido (180 g) (ID: 319066) OR 1,5 unidades de filés mingnon bovino, sem gordura, grelhado (180 g) (ID: 319067)",
+        "120 g de alface (ID: 319387) OR 100 g de espinafre (ID: 319394)",
+        "3 conchas pequenas de feijão preto cozido (150 g) (ID: 320413) OR 7,5 colheres de sopa de lentilha cozida (135 g) (ID: 320414)"
+      ],
+      "meal_totals": {
+        "kcal": 639.09,
+        "protein_g": 59.12,
+        "carbs_g": 67.59,
+        "fat_g": 15.56,
+        "fiber_g": 16.75
+      }
+    },
+    {
+      "meal_type": "Afternoon Snack",
+      "time": "17:00",
+      "items": [
+        "1 porção de tapioca (100 g) (ID: 318779) OR 1,5 porções de rap 10 (42 g) (ID: 318780)",
+        "1,5 unidades média de iogurte natural (300 g) (ID: 318955) OR 3 fatias pequenas de queijo mussarela light (45 g) (ID: 320427)",
+        "1 unidade de banana prata crua (66 g) (ID: 318932) OR 1 unidade média de maçã (130 g) (ID: 318937)"
+      ],
+      "meal_totals": {
+        "kcal": 652.95,
+        "protein_g": 25.7,
+        "carbs_g": 108.21,
+        "fat_g": 14.2,
+        "fiber_g": 8.47
+      }
+    },
+    {
+      "meal_type": "Post-Workout Snack",
+      "time": "19:00",
+      "items": [
+        "1,5 unidades de ovos de galinha cozido (117 g) (ID: 318951) OR 12 fatias médias de presunto sem capa de gordura (180 g) (ID: 318952)",
+        "1,5 unidades pequena de iogurte (210 g) (ID: 319057) OR 3 fatias médias de queijo ricota (105 g) (ID: 318953)",
+        "1 unidade de banana prata crua (66 g) (ID: 318932) OR 1 unidade média de maçã (130 g) (ID: 318937)"
+      ],
+      "meal_totals": {
+        "kcal": 329.19,
+        "protein_g": 20.62,
+        "carbs_g": 34.92,
+        "fat_g": 12.84,
+        "fiber_g": 3.63
+      }
+    },
+    {
+      "meal_type": "Dinner",
+      "time": "21:00",
+      "items": [
+        "2 escumadeiras média cheia de arroz cozido (170 g) (ID: 318769) OR 6 unidades pequenas de batata inglesa cozida (420 g) (ID: 318770)",
+        "1,5 filés de coxão mole de bovino, sem gordura, cozido (180 g) (ID: 319066) OR 1,5 unidades de filés mingnon bovino, sem gordura, grelhado (180 g) (ID: 319067)",
+        "120 g de alface (ID: 319387) OR 100 g de espinafre (ID: 319394)",
+        "3 conchas pequenas de feijão preto cozido (150 g) (ID: 320413) OR 7,5 colheres de sopa de lentilha cozida (135 g) (ID: 320414)"
+      ],
+      "meal_totals": {
+        "kcal": 639.09,
+        "protein_g": 59.12,
+        "carbs_g": 67.59,
+        "fat_g": 15.56,
+        "fiber_g": 16.75
+      }
+    }
+  ],
+  "warnings": [
+    "[WARN] carbs target miss: goal=412.5g, plan=278.3g (-32.5%)",
+    "[WARN] fat target miss: goal=83.3g, plan=58.2g (-30.2%)",
+    "Calorie target miss: goal=3000.0, plan=2260.3 (±10% = 2700-3300)"
+  ]
+}

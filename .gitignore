@@ -1,0 +1,27 @@
+# Byte-compiled
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environment
+.env
+.venv/
+venv/
+env/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Distribution
+dist/
+build/
+*.egg-info/
+
+
+/Resumo_Arquitetura.md
+/UseCase/openai_api_key.txt

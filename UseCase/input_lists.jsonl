@@ -1,0 +1,806 @@
+[
+  {
+    "name": "Hidratos de Carbono (almoço e jantar)",
+    "energy": "90.19 kcal",
+    "macronutrients_in_grams": {
+      "fat": 0.71,
+      "carbohydrate": 19.9,
+      "protein": 1.83
+    },
+    "fiber_quantity_in_grams": 2.38,
+    "equivalents": [
+      [
+        318769,
+        "1 escumadeira média cheia of arroz cozido (85 g)"
+      ],
+      [
+        318770,
+        "3 unidades pequenas of batata inglesa cozida (210 g)"
+      ],
+      [
+        318771,
+        "2.5 escumadeiras médias cheias, picada of abóbora cabotian cozida (250 g)"
+      ],
+      [
+        318772,
+        "2 fatias médias of batata doce cozida (140 g)"
+      ],
+      [
+        318773,
+        "2 pedaços pequenos of mandioca cozida (100 g)"
+      ],
+      [
+        318774,
+        "2 fatias of cuscuz de milho, cozido com sal (100 g)"
+      ],
+      [
+        318775,
+        "3 colheres de sopa cheias of polenta pré-cozida (105 g)"
+      ],
+      [
+        318776,
+        "2 unidades médias of batata baroa cozida (160 g)"
+      ],
+      [
+        318783,
+        "2 porções of macarrão (146 g)"
+      ],
+      [
+        318967,
+        "5 colheres de sopa cheias of cará cozido (150 g)"
+      ],
+      [
+        318968,
+        "5 colheres de sopa cheias of milho verde enlatado, drenado (120 g)"
+      ],
+      [
+        318969,
+        "1.5 colheres de sopa rasas, picada of farofa de mandioca temperada (30 g)"
+      ],
+      [
+        318970,
+        "2.5 colheres de sopa of nhoque de batata cozido (63 g)"
+      ]
+    ]
+  },
+  {
+    "name": "Proteínas (café da manhã e lanches)",
+    "energy": "116.37 kcal",
+    "macronutrients_in_grams": {
+      "fat": 6.74,
+      "carbohydrate": 4.11,
+      "protein": 9.59
+    },
+    "fiber_quantity_in_grams": 0.28,
+    "equivalents": [
+      [
+        318951,
+        "1 unidade of ovo de galinha cozido (78 g)"
+      ],
+      [
+        318952,
+        "8 fatias médias of presunto sem capa de gordura (120 g)"
+      ],
+      [
+        318953,
+        "2 fatias médias of queijo ricota (70 g)"
+      ],
+      [
+        318954,
+        "1 fatia grande, tipo Danúbio of queijo minas, frescal (40 g)"
+      ],
+      [
+        318955,
+        "1 unidade média of iogurte natural (200 g)"
+      ],
+      [
+        318956,
+        "2 fatias pequenas of queijo prato (30 g)"
+      ],
+      [
+        320426,
+        "1 copo de bebida vegetal (200 g)"
+      ],
+      [
+        320427,
+        "2 fatias pequenas de queijo mussarela light (30 g)"
+      ],
+      [
+        320428,
+        "1 colher de sopa cheia of requeijão light (30 g)"
+      ]
+    ]
+  },
+  {
+    "name": "Carboidratos (café da manhã e lanches)",
+    "energy": "274.73 kcal",
+    "macronutrients_in_grams": {
+      "fat": 2.62,
+      "carbohydrate": 56.72,
+      "protein": 6.78
+    },
+    "fiber_quantity_in_grams": 3.86,
+    "equivalents": [
+      [
+        318777,
+        "2 fatias of pão de forma de trigo integral (50 g)"
+      ],
+      [
+        318778,
+        "1 unidade de pão francês (50 g)"
+      ],
+      [
+        318779,
+        "1/2 porção of tapioca (50 g)"
+      ],
+      [
+        318780,
+        "1 porção of rap 10 (28 g)"
+      ],
+      [
+        318781,
+        "2 fatias de cuscuz de milho cozido com sal (100 g)"
+      ],
+      [
+        318930,
+        "2 colheres de sopa cheias of aveia em flocos crua (30 g)"
+      ],
+      [
+        320423,
+        "3 colheres de sopa cheias of granola (33 g)"
+      ],
+      [
+        320424,
+        "1 porção de cereais de flocos de milho sem adição de açúcares (30 g)"
+      ],
+      [
+        320425,
+        "4 unidades de torrada integral (32 g)"
+      ]
+    ]
+  },
+  {
+    "name": "Fruta (+completo)",
+    "energy": "44.2 kcal",
+    "macronutrients_in_grams": {
+      "fat": 0.11,
+      "carbohydrate": 11.31,
+      "protein": 0.76
+    },
+    "fiber_quantity_in_grams": 1.51,
+    "equivalents": [
+      [
+        318931,
+        "2 fatias pequenas of abacaxi cru (100 g)"
+      ],
+      [
+        318932,
+        "1/2 unidade of banana prata crua (33 g)"
+      ],
+      [
+        318933,
+        "1/2 unidade of caqui chocolate cru (55 g)"
+      ],
+      [
+        318934,
+        "1 unidade of carambola crua (75 g)"
+      ],
+      [
+        318935,
+        "1 unidade grande of figo cru (70 g)"
+      ],
+      [
+        318936,
+        "1 unidade pequena of laranja (90 g)"
+      ],
+      [
+        318937,
+        "1/2 unidade média of maçã (65 g)"
+      ],
+      [
+        318938,
+        "1/2 fatia of mamão Formosa cru (85 g)"
+      ],
+      [
+        318939,
+        "1/2 fatia of mamão Papaia cru (85 g)"
+      ],
+      [
+        318940,
+        "1 fatia grande of melão cru (115 g)"
+      ],
+      [
+        318941,
+        "1 fatia pequena of melancia crua (100 g)"
+      ],
+      [
+        318942,
+        "1/2 unidade pequena of manga (60 g)"
+      ],
+      [
+        318943,
+        "12 unidades médias de morango (144 g)"
+      ],
+      [
+        318944,
+        "6 unidades grande of uvas (72 g)"
+      ],
+      [
+        318945,
+        "2 unidades médias de ameixa(84 g)"
+      ],
+      [
+        318946,
+        "1 unidade pequena de tangerina (100 g)"
+      ],
+      [
+        318947,
+        "1 unidade grande de pêssego (110 g)"
+      ],
+      [
+        318948,
+        "1 fatia pequena of melancia crua (100 g)"
+      ],
+      [
+        318949,
+        "1/2 unidade média of pêra Park crua (55 g)"
+      ]
+    ]
+  },
+  {
+    "name": "Oleaginosas (Castanhas e Nozes)",
+    "energy": "581.47 kcal",
+    "macronutrients_in_grams": {
+      "fat": 49.57,
+      "carbohydrate": 25.82,
+      "protein": 17.71
+    },
+    "fiber_quantity_in_grams": 12.72,
+    "equivalents": [
+      [
+        319030,
+        "3 unidades of castanha-do-Brasil crua (12 g)"
+      ],
+      [
+        319031,
+        "5 unidades of castanha-de-caju torrada salgada (13 g)"
+      ],
+      [
+        319032,
+        "2 unidades of noz crua (10 g)"
+      ],
+      [
+        319033,
+        "1.5 colheres de sopa of semente de linhaça (15 g)"
+      ],
+      [
+        319034,
+        "1.5 colheres de sopa of gergelim semente (15 g)"
+      ],
+      [
+        319035,
+        "13 unidades of amêndoa torrada salgada (13 g)"
+      ],
+      [
+        319036,
+        "15 unidades of amendoim torrado salgado (12 g)"
+      ]
+    ]
+  },
+  {
+    "name": "Leite e iogurte liquido",
+    "energy": "58.89 kcal",
+    "macronutrients_in_grams": {
+      "fat": 1.71,
+      "carbohydrate": 7.86,
+      "protein": 3.4
+    },
+    "fiber_quantity_in_grams": 0.63,
+    "equivalents": [
+      [
+        319056,
+        "2 copos pequenos cheios of leite de vaca semidesnatado (330 g)"
+      ],
+      [
+        319057,
+        "1 unidade pequena of iogurte (140 g)"
+      ]
+    ]
+  },
+  {
+    "name": "Queijos",
+    "energy": "241.41 kcal",
+    "macronutrients_in_grams": {
+      "fat": 18.59,
+      "carbohydrate": 2.97,
+      "protein": 15.58
+    },
+    "fiber_quantity_in_grams": 0,
+    "equivalents": [
+      [
+        319026,
+        "1 colher de sopa cheia of queijo requeijão cremoso (30 g)"
+      ],
+      [
+        319027,
+        "1 fatia média, tipo Danúbio of queijo minas, frescal (30 g)"
+      ],
+      [
+        319028,
+        "1.5 fatias pequenas of queijo prato (23 g)"
+      ],
+      [
+        319029,
+        "1.5 fatias médias of queijo ricota (53 g)"
+      ],
+      [
+        319109,
+        "1 fatia media of queijo muzarella (20 g)"
+      ]
+    ]
+  },
+  {
+    "name": "Cereais, aveia e granola",
+    "energy": "379.72 kcal",
+    "macronutrients_in_grams": {
+      "fat": 4.9,
+      "carbohydrate": 73,
+      "protein": 11.28
+    },
+    "fiber_quantity_in_grams": 7.18,
+    "equivalents": [
+      [
+        319053,
+        "3 colheres de sopa cheias of aveia em flocos (45 g)"
+      ],
+      [
+        319054,
+        "8 colheres de sopa cheias of cereais de flocos de milho, sem sal (32 g)"
+      ],
+      [
+        319055,
+        "1/2 xícara of granola (40 g)"
+      ]
+    ]
+  },
+  {
+    "name": "Carne",
+    "energy": "202.3 kcal",
+    "macronutrients_in_grams": {
+      "fat": 7.95,
+      "carbohydrate": 0.81,
+      "protein": 30.06
+    },
+    "fiber_quantity_in_grams": 0,
+    "equivalents": [
+      [
+        319066,
+        "1 filé of coxão mole de bovino, sem gordura, cozido (120 g)"
+      ],
+      [
+        319067,
+        "1 unidade of filé mingnon bovino, sem gordura, grelhado (120 g)"
+      ],
+      [
+        319068,
+        "1 filé of lagarto bovino cozido (120 g)"
+      ],
+      [
+        319069,
+        "1.5 filés of maminha bovina grelhada (150 g)"
+      ],
+      [
+        319070,
+        "4 pedaços of músculo bovino, sem gordura, cozido (120 g)"
+      ],
+      [
+        319071,
+        "1 fatia of picanha bovina, sem gordura, grelhada (100 g)"
+      ],
+      [
+        319072,
+        "3 unidades médias of coxa de frango, sem pele, cozida (120 g)"
+      ],
+      [
+        319073,
+        "1 peito pequeno of frango, sem pele, assado (140 g)"
+      ],
+      [
+        319074,
+        "1 unidade pequena of peito de frango, sem pele, grelhado (140 g)"
+      ],
+      [
+        319075,
+        "2 unidades médias of hambúrguer de bovino grelhado (112 g)"
+      ],
+      [
+        319076,
+        "2 unidades of costela de porco assada (50 g)"
+      ],
+      [
+        319078,
+        "1.5 bifes médios of patinho grelhado (135 g)"
+      ],
+      [
+        319079,
+        "1.5 bifes médios of alcatra grelhada (135 g)"
+      ]
+    ]
+  },
+  {
+    "name": "Peixe",
+    "energy": "158.5 kcal",
+    "macronutrients_in_grams": {
+      "fat": 3.87,
+      "carbohydrate": 0,
+      "protein": 28.95
+    },
+    "fiber_quantity_in_grams": 0,
+    "equivalents": [
+      [
+        319080,
+        "1 unidade of posta de cação cozida (200 g)"
+      ],
+      [
+        319081,
+        "1.5 filés of corvina grande assada (180 g)"
+      ],
+      [
+        319082,
+        "1.5 filés of filé de merluza assado (180 g)"
+      ],
+      [
+        319100,
+        "1 posta of salmão fresco, sem pele, grelhado (100 g)"
+      ],
+      [
+        319101,
+        "4 unidades grandes of sardinha assada (160 g)"
+      ],
+      [
+        319102,
+        "8 colheres de sopa cheias of atum em conserva (128 g)"
+      ],
+      [
+        319103,
+        "1.5 unidades of pintado grelhado (180 g)"
+      ],
+      [
+        319104,
+        "1 unidade of pintado assado (120 g)"
+      ]
+    ]
+  },
+  {
+    "name": "Proteínas magras (almoço e jantar)",
+    "energy": "128.44 kcal",
+    "macronutrients_in_grams": {
+      "fat": 4.32,
+      "carbohydrate": 0.25,
+      "protein": 20.69
+    },
+    "fiber_quantity_in_grams": 0,
+    "equivalents": [
+      [
+        319105,
+        "2 unidades of ovo de galinha (90 g)"
+      ],
+      [
+        319106,
+        "1/2 unidade pequena of peito de frango, sem pele, grelhado (70 g)"
+      ],
+      [
+        319107,
+        "6.5 colheres de sopa cheias of atum em conserva light (104 g)"
+      ],
+      [
+        319108,
+        "1/2 posta média of pescada branca crua (100 g)"
+      ]
+    ]
+  },
+  {
+    "name": "Verduras",
+    "energy": "22.51 kcal",
+    "macronutrients_in_grams": {
+      "fat": 0.34,
+      "carbohydrate": 4.21,
+      "protein": 1.85
+    },
+    "fiber_quantity_in_grams": 1.91,
+    "equivalents": [
+      [
+        319387,
+        "120 grams of alface"
+      ],
+      [
+        319388,
+        "120 grams of acelga"
+      ],
+      [
+        319389,
+        "80 grams of agrião"
+      ],
+      [
+        319390,
+        "40 grams of alho poró"
+      ],
+      [
+        319391,
+        "1 unidade média of cebola crua (70 g)"
+      ],
+      [
+        319392,
+        "100 grams of couve manteiga crua"
+      ],
+      [
+        319393,
+        "120 grams of chicória crua"
+      ],
+      [
+        319394,
+        "100 grams of espinafre"
+      ],
+      [
+        319395,
+        "120 grams of pepino"
+      ],
+      [
+        319396,
+        "120 grams of rabanete cru"
+      ],
+      [
+        319397,
+        "100 grams of repolho"
+      ],
+      [
+        319398,
+        "80 grams of rúcula"
+      ],
+      [
+        319399,
+        "50 grams of salsa crua"
+      ],
+      [
+        319400,
+        "100 grams of tomate"
+      ],
+      [
+        319401,
+        "100 grams of almeirão cru"
+      ],
+      [
+        319402,
+        "50 grams of broto de feijão cru"
+      ],
+      [
+        319403,
+        "80 grams of palmito em conserva"
+      ]
+    ]
+  },
+  {
+    "name": "Legumes",
+    "energy": "24.38 kcal",
+    "macronutrients_in_grams": {
+      "fat": 0.22,
+      "carbohydrate": 5.27,
+      "protein": 1.36
+    },
+    "fiber_quantity_in_grams": 2.12,
+    "equivalents": [
+      [
+        319371,
+        "100 grams of abobrinha cozida"
+      ],
+      [
+        319372,
+        "100 grams of berinjela cozida"
+      ],
+      [
+        319373,
+        "100 grams of beterraba cozida"
+      ],
+      [
+        319374,
+        "100 grams of brócolis"
+      ],
+      [
+        319375,
+        "1 unidade média of cenoura (100 g)"
+      ],
+      [
+        319376,
+        "1 unidade média of cebola (70 g)"
+      ],
+      [
+        319377,
+        "1 ramo grande of couve-flor cozida (100 g)"
+      ],
+      [
+        319378,
+        "100 grams of chuchu cozido"
+      ],
+      [
+        319379,
+        "100 grams of jiló"
+      ],
+      [
+        319380,
+        "1 unidade média of palmito de pupunha em conserva (100 g)"
+      ],
+      [
+        319381,
+        "100 grams of pimentão"
+      ],
+      [
+        319382,
+        "100 grams of quiabo"
+      ],
+      [
+        319383,
+        "100 grams of rabanete cru"
+      ],
+      [
+        319384,
+        "100 grams of cogumelo in natura"
+      ],
+      [
+        319385,
+        "1 unidade média of tomate (100 g)"
+      ],
+      [
+        319386,
+        "70 grams of vagem"
+      ]
+    ]
+  },
+  {
+    "name": "Proteínas (+calóricas - almoço e jantar)",
+    "energy": "239.4 kcal",
+    "macronutrients_in_grams": {
+      "fat": 13.16,
+      "carbohydrate": 2.11,
+      "protein": 26.89
+    },
+    "fiber_quantity_in_grams": 0,
+    "equivalents": [
+      [
+        320098,
+        "2 unidades médias of hambúrguer de bovino grelhado (112 g)"
+      ],
+      [
+        320099,
+        "1.5 filés of lagarto bovino cozido (180 g)"
+      ],
+      [
+        320100,
+        "3 unidades of costela de porco assada (75 g)"
+      ],
+      [
+        320101,
+        "1.5 bifes médios of alcatra grelhada (135 g)"
+      ],
+      [
+        320102,
+        "1 unidade média of filé de salmão fresco, com pele, grelhado (100 g)"
+      ]
+    ]
+  },
+  {
+    "name": "proteínas veganas",
+    "energy": "85.74 kcal",
+    "macronutrients_in_grams": {
+      "fat": 2.55,
+      "carbohydrate": 10.01,
+      "protein": 6.74
+    },
+    "fiber_quantity_in_grams": 4.01,
+    "equivalents": [
+      [
+        320103,
+        "250 grams of tofu"
+      ],
+      [
+        320104,
+        "1.5 conchas médias rasas of lentilha (150 g)"
+      ],
+      [
+        320105,
+        "10 colheres de sopa of feijão carioca cozido (150 g)"
+      ]
+    ]
+  },
+  {
+    "name": "Peixe magro",
+    "energy": "133.86 kcal",
+    "macronutrients_in_grams": {
+      "fat": 1.88,
+      "carbohydrate": 0,
+      "protein": 27.39
+    },
+    "fiber_quantity_in_grams": 0,
+    "equivalents": [
+      [
+        320409,
+        "1 filé of corvina grande assada (120 g)"
+      ],
+      [
+        320410,
+        "1 filé of filé de merluza assado (120 g)"
+      ],
+      [
+        320411,
+        "8 colheres de sopa cheias of atum em conserva light (128 g)"
+      ],
+      [
+        320412,
+        "1 unidade of pintado grelhado (120 g)"
+      ]
+    ]
+  },
+  {
+    "name": "Leguminosas (- calórico)",
+    "energy": "88.5 kcal",
+    "macronutrients_in_grams": {
+      "fat": 1.25,
+      "carbohydrate": 14.91,
+      "protein": 5.68
+    },
+    "fiber_quantity_in_grams": 6.72,
+    "equivalents": [
+      [
+        320413,
+        "2 conchas pequenas of feijão preto cozido (100 g)"
+      ],
+      [
+        320414,
+        "5 colheres de sopa of lentilha cozida (90 g)"
+      ],
+      [
+        320415,
+        "5 colheres de sopa of ervilha enlatada, drenada (105 g)"
+      ],
+      [
+        320416,
+        "4 colheres de sopa of feijão fradinho cozido (80 g)"
+      ],
+      [
+        320417,
+        "1/2 concha of feijão tropeiro mineiro (50 g)"
+      ]
+    ]
+  },
+  {
+    "name": "Leguminosas (+ calórico)",
+    "energy": "88.44 kcal",
+    "macronutrients_in_grams": {
+      "fat": 1.29,
+      "carbohydrate": 14.86,
+      "protein": 5.67
+    },
+    "fiber_quantity_in_grams": 6.73,
+    "equivalents": [
+      [
+        320418,
+        "4 conchas pequenas of feijão preto cozido (200 g)"
+      ],
+      [
+        320419,
+        "8 colheres de sopa of lentilha cozida (144 g)"
+      ],
+      [
+        320420,
+        "9 colheres de sopa of ervilha enlatada, drenada (189 g)"
+      ],
+      [
+        320421,
+        "9 colheres de sopa of feijão fradinho cozido (180 g)"
+      ],
+      [
+        320422,
+        "1 concha of feijão tropeiro mineiro (100 g)"
+      ]
+    ]
+  }
+]
