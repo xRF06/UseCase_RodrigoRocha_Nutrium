@@ -58,6 +58,8 @@ flowchart TD
 
 - Python 3.10+
 - An OpenAI API key
+- An Langcain API key
+- An Langcain project
 
 ### 2. Install dependencies
 
@@ -75,7 +77,7 @@ OPENAI_API_KEY="YOUR_OPENAI_API_KEY"
 # Optional: LangSmith Observability
 LANGCHAIN_TRACING_V2=true
 LANGCHAIN_ENDPOINT="https://api.smith.langchain.com"
-LANGCHAIN_PROJECT="Nutrium_Meal_Planner"
+LANGCHAIN_PROJECT="YOUR_LANGSMITH_PROJECT"
 LANGCHAIN_API_KEY="YOUR_LANGSMITH_API_KEY"
 ```
 
