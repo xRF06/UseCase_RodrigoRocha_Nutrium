@@ -70,7 +70,7 @@ pip install -r requirements.txt
 Create a `.env` file in the project root (one is already provided) and set your API keys:
 
 ```bash
-OPENAI_API_KEY=sk-proj-...
+OPENAI_API_KEY="YOUR_OPENAI_API_KEY"
 
 # Optional: LangSmith Observability
 LANGCHAIN_TRACING_V2=true
