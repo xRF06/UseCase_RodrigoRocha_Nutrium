@@ -18,7 +18,7 @@ flowchart TD
     %% Nodes
     START([🚀 START]):::startEnd --> FILTER["🛡️ load_and_filter<br/><small>Safety Firewall</small>"]:::python
     
-    FILTER --> GEN["🧠 generate_plan<br/><small>LLM Food Selector <br/><small>(GPT-4o)</small>"]:::ai
+    FILTER --> GEN["🧠 generate_plan<br/><small>LLM Food Select <br/><small>(GPT-4o)</small>"]:::ai
     
     GEN --> VAL["🧮 validate_output<br/><small>Python Math Engine</small> (Deterministic)"]:::python
     
