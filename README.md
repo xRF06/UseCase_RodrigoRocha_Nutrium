@@ -18,11 +18,11 @@ flowchart TD
     %% Nodes
     START([🚀 START]):::startEnd --> FILTER["🛡️ load_and_filter<br/><small>Safety Firewall</small>"]:::python
     
-    FILTER --> GEN["🧠 generate_plan<br/><small>LLM Food Selector</small>"]:::ai
+    FILTER --> GEN["🧠 generate_plan<br/><small>LLM Food Selector (GPT-4o)</small>"]:::ai
     
-    GEN --> VAL["🧮 validate_output<br/><small>Python Math Engine</small>"]:::python
+    GEN --> VAL["🧮 validate_output<br/><small>Python Math Engine</small> (Deterministic)"]:::python
     
-    VAL -- "✅ Math & Schema OK" --> CRIT["👨‍⚕️ critique_plan<br/><small>Senior Reviewer</small>"]:::ai
+    VAL -- "✅ Math & Schema OK" --> CRIT["👨‍⚕️ critique_plan<br/><small>Senior Reviewer (GPT-4o)</small>"]:::ai
     VAL -- "❌ FAILED" --> RETRY{"🔄 Retries<br/>exhausted?"}:::condition
     
     CRIT -- "✅ Approved" --> SUCC([🎯 SUCCESS]):::startEnd
@@ -49,8 +49,6 @@ flowchart TD
 | `validate_output` | Validates JSON schema, required meals, food IDs, nutritional math consistency |
 | `critique_plan` | LLM-based critique checking patient adaptation, safety, and target adherence |
 | `handle_failure` | Terminal node when max retries (3) are exhausted |
-
-See [architecture.md](architecture.md) for the full Mermaid diagram.
 
 ---
 
