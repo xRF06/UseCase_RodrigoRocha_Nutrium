@@ -16,7 +16,6 @@ import argparse
 import json
 import sys
 
-# Fix emoji/unicode output on Windows terminals
 sys.stdout.reconfigure(encoding='utf-8', errors='replace')
 
 from dotenv import load_dotenv

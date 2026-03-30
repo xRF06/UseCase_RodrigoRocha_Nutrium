@@ -109,7 +109,7 @@ The script prints the graph progression in real time and automatically routes th
 
 ## Prompt Strategy
 
-My implementation uses a highly defensive, agent-based prompt strategy governed by **Separation of Concerns**: the LLM handles qualitative heuristic choices (food variety), while the Python backend enforces quantitative rules (exact math). 
+This implementation uses a highly defensive, agent-based prompt strategy governed by **Separation of Concerns**: the LLM handles qualitative heuristic choices (food variety), while the Python backend enforces quantitative rules (exact math). 
 
 ### 1. The Defensive "Generation" Prompt
 - **Schema Enforcement**: The exact JSON architecture is embedded in the prompt.
@@ -131,8 +131,7 @@ Before a mathematically valid plan is officially approved, a secondary "Senior R
 ```
 ├── UseCase/                     # Input data
 │   ├── input_lists.jsonl        # 19 food alternative lists
-│   ├── input_nutri_approval.jsonl  # 5 patient profiles
-│   └── openai_api_key.txt
+│   └── input_nutri_approval.jsonl  # 5 patient profiles
 ├── src/
 │   ├── models.py                # Pydantic data models
 │   ├── data_loader.py           # Input file parsers
